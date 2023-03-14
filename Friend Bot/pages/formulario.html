@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+<body id="formulariopagina">
+    <div class="container">
+        <h2>Cadastro do Paciente</h2>
+        <form name="dados" id="dados" action="" method="post">
+            <div class="campos">
+                <label for="nome">Nome do Responsável Completo</label>
+                <input type="text" id="nome"autofocus required>
+            </div>
+            <hr>
+            <h3>Localização do Hospital:</h3>
+            <div class="campos">
+                <div class="em__linha">
+                    <label for="rua">Rua</label>
+                    <label for="numero">Número</label>
+                    <label for="bairro">Bairro</label>
+                </div>
+                <div class="em__linha">
+                    <input type="text" id="rua" required placeholder="ex: Av. Vasconcelos">
+                    <input type="text" id="numero" required placeholder="ex: 1234">
+                    <input type="text" id="bairro" required placeholder="ex: Mooca">
+                </div>
+            </div>
+            <div class="campos">
+                <div class="em__linha">
+                    <label for="cep">Cep</label>
+                    <label for="cidade">Cidade</label>
+                    <label for="estados">Estado</label>
+                </div>
+                <div class="em__linha">
+                    <input type="text" id="cep" required placeholder="ex: 12345-678">
+                    <input type="text" id="numero" required placeholder="ex: Rio de Janeiro">
+                    <input list="uf" id="estados" class="lista" required placeholder="ex: Selecione o estado">
+                    <datalist id="uf">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="EX">Estrangeiro</option>
+                    </datalist>
+                </div>
+            </div>
+            <hr>
+            <h3>Contato:</h3>
+            <div class="campos">
+                <div class="em__linha">
+                    <label for="telefone">Telefone</label>
+                    <label for="email">Área da medicina responsável</label>
+                    <label for="data">Data do Cadastro</label>
+                </div>
+                <div class="em__linha">
+                    <input type="tel" id="telefone" required placeholder="ex: 00-1234-5678">
+                    <input list="area" id="pediatria" class="lista" required placeholder="ex: Selecione a area">
+                    <datalist id="area">
+                        <option value="Pediatria"></option>
+                        <option value="Nutrologia pediatrica"></option>
+                        <option value="Nefrologia pediatrica"></option>
+                        <option value="Neurologia pediatrica"></option>
+                        <option value="Infectologia pediatrica"></option>
+                        <option value="Cardiologia pediatrica"></option>
+                        <option value="Pneumologia pediatrica"></option>
+                        <option value="Reumatologia pediatrica"></option>
+                        <option value="Endocrinologia pediatrica"></option>
+                        <option value="Endocrinologia pediatrica"></option>
+                        <option value="Gastroenterologia pediatrica"></option>
+                    </datalist>
+                    <input type="date" id="data" required>
+                </div>
+            </div>
+            <hr>
+            <h3>Outras informações:</h3>
+            <div class="campos">
+                <div class="em__linha">
+                    <label for="nome">Nome Completo do Paciente (4 a 7 anos)</label>
+                    <label for="email">E-mail</label>
+                    <label for="dataCadastro">Site do Hospital</label>
+                </div>
+                <div class="em__linha">
+                    <input type="text" id="nome" required placeholder="ex: Gabriel da Silva">
+                    <input type="email" id="email" required placeholder="ex: hospital@hospital.com">
+                    <input type="url" id="site" required placeholder="ex: www.hospital.com">
+                </div>
+            </div>
+            <div class="campos">
+                <label for="informacoes">Mais informações sobre o paciente</label>
+                <textarea name="" id="informações" placeholder="Informações adicionais"></textarea>
+            </div>
+            <div>
+                <button onclick="window.location.href='confirmacaodeenvio.html'">Cadastro</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

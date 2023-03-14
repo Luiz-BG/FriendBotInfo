@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&amp;family=Open+Sans+Condensed:wght@300&amp;display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    width: 99%;
+    margin: auto;
+    line-height: 1.5;
+}
+                                               /*  home page */
+#paginahome {
+background-color: seashell;
+}
+#titulohome {
+    text-transform: uppercase;
+    text-align: justify;
+    box-sizing: border-box;
+  }
+  h1, h2 {
+      padding: 15px;
+  }
+p {
+    text-indent: 25px;
+    padding: 10px;
+    text-align: justify;
+}
+a {
+    text-decoration: none;
+    color: rgb(17, 78, 247);
+    font-weight: 450;
+}
+a:hover {
+    color: rgb(190, 70, 70);
+  }
+
+  #lista1 {
+      margin: 5px;
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+      padding: 5px;
+  }
+  p {
+      border: 1px solid #4d4d4d;
+      padding: 10px;
+      box-sizing: border-box;
+      box-shadow: inset 0 0 2px 2px #666;
+      word-spacing: 5px;
+      letter-spacing: 1px;
+      background-color: rgb(236, 228, 228);
+  }
+                                                  /* info do robo */
+#paginarobo {
+    background-color: seashell;
+}
+img {
+    width: 100px;
+}
+#fotorobo{
+    width: 500px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+}
+                             /*  preços */
+#robos {
+    background-color: seashell;
+}
+
+table {    
+    margin: 10px auto;
+    font-size: 18px;
+    width: 800px;
+    border-collapse: collapse;
+  }
+  caption {
+    font-size: 30px;
+    color:#4d4d4d;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+  thead tr {
+    background:#4d4d4d;
+    color: #fff;
+    text-align: left;
+  }
+   th, td {
+    padding: 15px;
+    box-sizing: border-box;
+  }
+   tbody tr {
+    border-bottom: 1px solid #ccc;
+  }
+   tbody tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+   tbody tr:last-child {
+    border-bottom: 20px solid #4d4d4d;
+  }
+   tfoot {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 900;
+  }
+  #fotorobo1{
+    width: 350px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+  }
+  #fotorobo2{
+    width: 275px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+  }
+  #fotorobo3{
+    width: 350px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+  }
+
+nav {
+    background: rgb(100, 100, 201);
+    height: 80px;
+    width: 100%;
+    border: 5px solid #4d4d4d;
+    box-shadow: inset 0 0 2px 2px #666;
+
+
+}
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;  
+}
+/* FORMULARIO*/
+
+.container {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #999;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #4d4d4d;
+    box-shadow: inset 0 0 2px 2px #666;
+    background-color: rgb(236, 228, 228);
+}
+h2,
+h3 {
+    margin: 10px 10px 0;
+    color: #000000;
+    font-weight: 900;
+}
+p {
+    margin-bottom: 10px;
+}
+hr {
+    margin: 20px 10px;
+}
+.campos {
+    color: rgb(0, 0, 0);
+    margin: 5px auto;
+    padding: 10px;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+}
+.campos label {
+    margin: 5px 0;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+}
+input,
+textarea {
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+.em__linha {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.em__linha label,
+.em__linha input {
+    width: 30%;
+    margin: 0 2px;
+}
+textarea {
+    height: 150px;
+    resize: none;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+.botoes {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+#formulariopagina {
+    background-color: seashell;
+}
+#formulariofundo {
+    background-color: rgb(236, 228, 228);
+}
+h5 {
+    font-size: 30px;
+    color:#33ff00;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+#paginafeedback {
+    background-color: seashell;
+}
+.botoes {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.botoes input {
+    width: 200px;
+    height: 50px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    border: 0;
+    background-color: #dc143c;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
