@@ -1,5 +1,5 @@
 # Apresentação do Friend Bot
-Meu primeiro projeto realizado na faculdade utilizando linguagem de programação
+Meu primeiro projeto realizado na faculdade utilizando linguagem de programação,
 
 ## Índice
 - <a href="#funcionalidades">Funcionalidades do Projeto</a>
@@ -10,6 +10,7 @@ Meu primeiro projeto realizado na faculdade utilizando linguagem de programaçã
 
 - [x] Criar um website de demonstração
 - [x] Demonstrar o objetivo e tudo que o Friend Bot representa
+- [x] Ser capaz de registrar pessoas interessadas no projeto
 
 ## ⌨️Tecnologias Utilizadas
 1. HTML
