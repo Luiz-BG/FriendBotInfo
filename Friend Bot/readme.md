@@ -3,7 +3,6 @@ Meu primeiro projeto realizado na faculdade utilizando linguagem de programaçã
 
 ## Índice
 - <a href="#funcionalidades">Funcionalidades do Projeto</a>
-- <a href="#layout">Layout</a>
 - <a href="#tecnologias">Tecnologia Utilizada</a>
 - <a href="#autores">Pessoas Responsáveis pelo projeto</a>
 
@@ -11,11 +10,6 @@ Meu primeiro projeto realizado na faculdade utilizando linguagem de programaçã
 
 - [x] Criar um website de demonstração
 - [x] Demonstrar o objetivo e tudo que o Friend Bot representa
-
-## Layout
-![nome da tela inicial do projeto](./nomedaimagem.png)
-![nome da tela 2 do projeto](./nomedaimagem.png)
-![nome da tela 3 do projeto](./nomedaimagem.png)
 
 ## ⌨️Tecnologias Utilizadas
 1. HTML
